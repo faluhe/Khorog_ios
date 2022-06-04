@@ -7,23 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A59544C2847DC0B002D68D5 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A59544B2847DC0B002D68D5 /* MainScreenView.swift */; };
+		9A59544F2847DCAF002D68D5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A59544E2847DCAF002D68D5 /* Helper.swift */; };
+		9A5954512847DEC3002D68D5 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5954502847DEC3002D68D5 /* Font.swift */; };
+		9A59545728487840002D68D5 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A59545628487840002D68D5 /* BannerCell.swift */; };
+		9A5954592848814E002D68D5 /* BannerCollectionVIewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5954582848814E002D68D5 /* BannerCollectionVIewAdapter.swift */; };
+		9A59545C284A0143002D68D5 /* NewsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A59545B284A0143002D68D5 /* NewsAdapter.swift */; };
+		9A59545E284A02CA002D68D5 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A59545D284A02CA002D68D5 /* NewsCell.swift */; };
+		9A6C68862834BD280099E020 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C68852834BD280099E020 /* Colors.swift */; };
+		9A6C688E2836145A0099E020 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C688D2836145A0099E020 /* Labels.swift */; };
+		9A6C6890283621000099E020 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C688F28361A6E0099E020 /* Montserrat-Regular.ttf */; };
+		9A6C689628362BD80099E020 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C689228362BD40099E020 /* Montserrat-Black.ttf */; };
+		9A6C689728362BDC0099E020 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C689428362BD40099E020 /* Montserrat-Bold.ttf */; };
+		9A6C689828362BDF0099E020 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C689128362BD40099E020 /* Montserrat-Light.ttf */; };
+		9A6C689928362BE10099E020 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C689528362BD40099E020 /* Montserrat-SemiBold.ttf */; };
+		9A6C689A28362BE40099E020 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C689328362BD40099E020 /* Montserrat-Thin.ttf */; };
+		9A6C689C28363F320099E020 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C689B28363F320099E020 /* View.swift */; };
+		9A6C689E283764DA0099E020 /* TetxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C689D283764DA0099E020 /* TetxtField.swift */; };
+		9A6C68A028376A2D0099E020 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C689F28376A2D0099E020 /* TextField.swift */; };
+		9A6FB241284097DE007347AC /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6FB240284097DE007347AC /* CustomView.swift */; };
+		9AABD7A4284A7FD7001C9297 /* NewsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AABD7A3284A7FD7001C9297 /* NewsHeaderView.swift */; };
 		9ACCA28C28337268009E14A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCA28B28337268009E14A7 /* AppDelegate.swift */; };
-		9ACCA28E28337268009E14A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCA28D28337268009E14A7 /* SceneDelegate.swift */; };
-		9ACCA29028337268009E14A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCA28F28337268009E14A7 /* ViewController.swift */; };
-		9ACCA29328337268009E14A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCA29128337268009E14A7 /* Main.storyboard */; };
 		9ACCA2952833726A009E14A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCA2942833726A009E14A7 /* Assets.xcassets */; };
 		9ACCA2982833726A009E14A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCA2962833726A009E14A7 /* LaunchScreen.storyboard */; };
+		9ACCA2A4283373F4009E14A7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCA2A3283373F4009E14A7 /* TabBarController.swift */; };
+		9ACCA2A628337472009E14A7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCA2A528337472009E14A7 /* MainViewController.swift */; };
+		9ACCA2A828337485009E14A7 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCA2A728337485009E14A7 /* NewsViewController.swift */; };
+		9ACCA2AA283374B0009E14A7 /* AdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCA2A9283374B0009E14A7 /* AdsViewController.swift */; };
+		9ACCA2AC283374C1009E14A7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCA2AB283374C1009E14A7 /* MapViewController.swift */; };
+		9ACCA2AF2833795F009E14A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCA2AE2833795E009E14A7 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A59544B2847DC0B002D68D5 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		9A59544E2847DCAF002D68D5 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		9A5954502847DEC3002D68D5 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		9A59545628487840002D68D5 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		9A5954582848814E002D68D5 /* BannerCollectionVIewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionVIewAdapter.swift; sourceTree = "<group>"; };
+		9A59545B284A0143002D68D5 /* NewsAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAdapter.swift; sourceTree = "<group>"; };
+		9A59545D284A02CA002D68D5 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		9A6C68852834BD280099E020 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		9A6C688D2836145A0099E020 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		9A6C688F28361A6E0099E020 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		9A6C689128362BD40099E020 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		9A6C689228362BD40099E020 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		9A6C689328362BD40099E020 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		9A6C689428362BD40099E020 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		9A6C689528362BD40099E020 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		9A6C689B28363F320099E020 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		9A6C689D283764DA0099E020 /* TetxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetxtField.swift; sourceTree = "<group>"; };
+		9A6C689F28376A2D0099E020 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		9A6FB240284097DE007347AC /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		9AABD7A3284A7FD7001C9297 /* NewsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHeaderView.swift; sourceTree = "<group>"; };
 		9ACCA28828337268009E14A7 /* Khorug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Khorug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACCA28B28337268009E14A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9ACCA28D28337268009E14A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9ACCA28F28337268009E14A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9ACCA29228337268009E14A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ACCA2942833726A009E14A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ACCA2972833726A009E14A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ACCA2992833726A009E14A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACCA2A3283373F4009E14A7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9ACCA2A528337472009E14A7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9ACCA2A728337485009E14A7 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		9ACCA2A9283374B0009E14A7 /* AdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewController.swift; sourceTree = "<group>"; };
+		9ACCA2AB283374C1009E14A7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9ACCA2AE2833795E009E14A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +83,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A59544D2847DC85002D68D5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9A59544E2847DCAF002D68D5 /* Helper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9A5954522848770A002D68D5 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C689F28376A2D0099E020 /* TextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		9A5954532848771B002D68D5 /* UILabels */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C688D2836145A0099E020 /* Labels.swift */,
+			);
+			path = UILabels;
+			sourceTree = "<group>";
+		};
+		9A59545428487748002D68D5 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				9A6FB240284097DE007347AC /* CustomView.swift */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		9A5954552848781C002D68D5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9A59545628487840002D68D5 /* BannerCell.swift */,
+				9A59545D284A02CA002D68D5 /* NewsCell.swift */,
+				9AABD7A3284A7FD7001C9297 /* NewsHeaderView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9A59545A284887E0002D68D5 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				9A5954582848814E002D68D5 /* BannerCollectionVIewAdapter.swift */,
+				9A59545B284A0143002D68D5 /* NewsAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		9A6C68872834BD2D0099E020 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C68852834BD280099E020 /* Colors.swift */,
+				9A6C689B28363F320099E020 /* View.swift */,
+				9A6C689D283764DA0099E020 /* TetxtField.swift */,
+				9A5954502847DEC3002D68D5 /* Font.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		9A6C688B283612D20099E020 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C688F28361A6E0099E020 /* Montserrat-Regular.ttf */,
+				9A6C689228362BD40099E020 /* Montserrat-Black.ttf */,
+				9A6C689428362BD40099E020 /* Montserrat-Bold.ttf */,
+				9A6C689128362BD40099E020 /* Montserrat-Light.ttf */,
+				9A6C689528362BD40099E020 /* Montserrat-SemiBold.ttf */,
+				9A6C689328362BD40099E020 /* Montserrat-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9A6C688C2836144E0099E020 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				9A5954552848781C002D68D5 /* Cells */,
+				9A5954532848771B002D68D5 /* UILabels */,
+				9A5954522848770A002D68D5 /* TextFields */,
+				9A59545428487748002D68D5 /* UIViews */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		9ACCA27F28337268009E14A7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +188,64 @@
 		9ACCA28A28337268009E14A7 /* Khorug */ = {
 			isa = PBXGroup;
 			children = (
-				9ACCA28B28337268009E14A7 /* AppDelegate.swift */,
-				9ACCA28D28337268009E14A7 /* SceneDelegate.swift */,
-				9ACCA28F28337268009E14A7 /* ViewController.swift */,
-				9ACCA29128337268009E14A7 /* Main.storyboard */,
-				9ACCA2942833726A009E14A7 /* Assets.xcassets */,
-				9ACCA2962833726A009E14A7 /* LaunchScreen.storyboard */,
+				9A59545A284887E0002D68D5 /* Adapters */,
+				9A6C688C2836144E0099E020 /* CustomView */,
+				9A6C68872834BD2D0099E020 /* Extenstions */,
+				9ACCA2AD28337953009E14A7 /* Constants */,
+				9ACCA2A22833738E009E14A7 /* Support */,
+				9A59544D2847DC85002D68D5 /* Utilities */,
+				9ACCA2A028337318009E14A7 /* Model */,
+				9ACCA2A12833731E009E14A7 /* Views */,
+				9ACCA29F2833730A009E14A7 /* Controllers */,
 				9ACCA2992833726A009E14A7 /* Info.plist */,
+				9A6C688B283612D20099E020 /* Fonts */,
 			);
 			path = Khorug;
+			sourceTree = "<group>";
+		};
+		9ACCA29F2833730A009E14A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCA2A3283373F4009E14A7 /* TabBarController.swift */,
+				9ACCA2A528337472009E14A7 /* MainViewController.swift */,
+				9ACCA2A728337485009E14A7 /* NewsViewController.swift */,
+				9ACCA2A9283374B0009E14A7 /* AdsViewController.swift */,
+				9ACCA2AB283374C1009E14A7 /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9ACCA2A028337318009E14A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9ACCA2A12833731E009E14A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A59544B2847DC0B002D68D5 /* MainScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9ACCA2A22833738E009E14A7 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCA2942833726A009E14A7 /* Assets.xcassets */,
+				9ACCA2962833726A009E14A7 /* LaunchScreen.storyboard */,
+				9ACCA28B28337268009E14A7 /* AppDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		9ACCA2AD28337953009E14A7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCA2AE2833795E009E14A7 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +306,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6C689828362BDF0099E020 /* Montserrat-Light.ttf in Resources */,
+				9A6C689728362BDC0099E020 /* Montserrat-Bold.ttf in Resources */,
+				9A6C6890283621000099E020 /* Montserrat-Regular.ttf in Resources */,
+				9A6C689928362BE10099E020 /* Montserrat-SemiBold.ttf in Resources */,
+				9A6C689628362BD80099E020 /* Montserrat-Black.ttf in Resources */,
 				9ACCA2982833726A009E14A7 /* LaunchScreen.storyboard in Resources */,
+				9A6C689A28362BE40099E020 /* Montserrat-Thin.ttf in Resources */,
 				9ACCA2952833726A009E14A7 /* Assets.xcassets in Resources */,
-				9ACCA29328337268009E14A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +324,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ACCA29028337268009E14A7 /* ViewController.swift in Sources */,
+				9ACCA2A628337472009E14A7 /* MainViewController.swift in Sources */,
+				9A6C68862834BD280099E020 /* Colors.swift in Sources */,
+				9A59544F2847DCAF002D68D5 /* Helper.swift in Sources */,
+				9A6C689C28363F320099E020 /* View.swift in Sources */,
+				9A6C68A028376A2D0099E020 /* TextField.swift in Sources */,
+				9ACCA2AC283374C1009E14A7 /* MapViewController.swift in Sources */,
 				9ACCA28C28337268009E14A7 /* AppDelegate.swift in Sources */,
-				9ACCA28E28337268009E14A7 /* SceneDelegate.swift in Sources */,
+				9A59545728487840002D68D5 /* BannerCell.swift in Sources */,
+				9A6FB241284097DE007347AC /* CustomView.swift in Sources */,
+				9ACCA2A4283373F4009E14A7 /* TabBarController.swift in Sources */,
+				9A5954592848814E002D68D5 /* BannerCollectionVIewAdapter.swift in Sources */,
+				9A6C688E2836145A0099E020 /* Labels.swift in Sources */,
+				9A59544C2847DC0B002D68D5 /* MainScreenView.swift in Sources */,
+				9AABD7A4284A7FD7001C9297 /* NewsHeaderView.swift in Sources */,
+				9A59545C284A0143002D68D5 /* NewsAdapter.swift in Sources */,
+				9A59545E284A02CA002D68D5 /* NewsCell.swift in Sources */,
+				9ACCA2AF2833795F009E14A7 /* Constants.swift in Sources */,
+				9A5954512847DEC3002D68D5 /* Font.swift in Sources */,
+				9ACCA2A828337485009E14A7 /* NewsViewController.swift in Sources */,
+				9ACCA2AA283374B0009E14A7 /* AdsViewController.swift in Sources */,
+				9A6C689E283764DA0099E020 /* TetxtField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9ACCA29128337268009E14A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9ACCA29228337268009E14A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9ACCA2962833726A009E14A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +488,9 @@
 				INFOPLIST_FILE = Khorug/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +516,9 @@
 				INFOPLIST_FILE = Khorug/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
